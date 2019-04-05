@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Anchoret
+title:  Dream
 subtitle: Choose You Own Path
 description: 双木成林
 author: lin
@@ -231,7 +231,7 @@ social_icons:
 
   
 # reward
-reward_comment: 人该是自己生活的主宰，而不是别人手里的行货
+reward_comment: 感谢您的打赏，为我增添新的动力
 alipay: /images/reward_image/alipay-reward-image.jpg
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
@@ -266,9 +266,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  #display: post
+  display: post
   #display: always
-  display: hide
+  #display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -290,7 +290,7 @@ sidebar:
   #Title: http://example.com/
 links_title: 推荐阅读
 links:
-#  阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
+  阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -377,7 +377,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 36443ede179652b0cf6a526f12b1976f
+baidu_analytics: 
 
 # Duoshuo ShortName
 #duoshuo_shortname:

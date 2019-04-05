@@ -23,15 +23,15 @@ tags:
 
 操作很简单，相信你没问题。
 
-第二步是`fork`我的主题，地址点击[这里](https://github.com/ShixiangWang/ShixiangWang.github.io)。右上角有个大大的`Fork`按钮，点击它，没错，点它。这样等一下，`github`嘟嘟嘟就把我的所有内容传到你的资源包里去了。
+第二步是`fork`我的主题，地址点击[这里](https://github.com/xianlinzhang/xianlinzhang.github.io)。右上角有个大大的`Fork`按钮，点击它，没错，点它。这样等一下，`github`嘟嘟嘟就把我的所有内容传到你的资源包里去了。
 
-第三步，把资源包的名字改掉。改成根据创建账号用户名+github.io。像我的用户名是`ShixiangWang`，名字就该是`ShxiangWang.github.io`。如下图，在`Settings`里面改变然后点击`Rename`即可。
+第三步，把资源包的名字改掉。改成根据创建账号用户名+github.io。像我的用户名是`xianlinzhang`，名字就该是`ShxiangWang.github.io`。如下图，在`Settings`里面改变然后点击`Rename`即可。
 ![rename.png](http://upload-images.jianshu.io/upload_images/3884693-28cb769bdb90186c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这样你的博客框架已经搭好了，可以在浏览器输入`用户名.github.io`查看。
 
 如果你觉得这个主题不行，那我无话可说。你可以上[Jekyll Themes](http://jekyllthemes.org/)
-找个你喜欢的，找到它的`github`地址`Fork`之后改名；或者下载所有的文件把`ShixiangWang.github.io`下的文件全部删掉，把你喜欢的资源包拷贝进去。这个过程如果你在浏览器上操作比较麻烦，如果是`Windows`用户或者`Mac`用户可以下载[Github桌面版](https://desktop.github.com/)进行操作：先把你的资源库Fork到本地，然后修改（删掉所有的内容，把你下载的主题资源包内容拷贝进去），然后上传到仓库（`Commit`后`Push`）。
+找个你喜欢的，找到它的`github`地址`Fork`之后改名；或者下载所有的文件把`xianlinzhang.github.io`下的文件全部删掉，把你喜欢的资源包拷贝进去。这个过程如果你在浏览器上操作比较麻烦，如果是`Windows`用户或者`Mac`用户可以下载[Github桌面版](https://desktop.github.com/)进行操作：先把你的资源库Fork到本地，然后修改（删掉所有的内容，把你下载的主题资源包内容拷贝进去），然后上传到仓库（`Commit`后`Push`）。
 
 具体软件的使用可以参考这个[知乎链接](https://www.zhihu.com/question/20070065)。使用Linux的朋友多少对git有些概念，直接使用git对github仓库进行操作并不困难，相信你们能够搞定，不会的话网上也有一大堆开源博文等着你。我之前也整理过一篇[git使用手册](http://www.jianshu.com/p/e32a8e7ca93b)。
 
@@ -79,7 +79,7 @@ ping xxx.github.io #把xxx改成你的用户名
 ```
 可以看到返回结果（比如下面我的）里面包含ip地址，这就是你在添加解析时需要填入的。
 ```shell
-wsx@wsx-ubuntu:~$ ping ShixiangWang.github.io
+wsx@wsx-ubuntu:~$ ping xianlinzhang.github.io
 PING sni.github.map.fastly.net (151.101.193.147) 56(84) bytes of data.
 64 bytes from 151.101.193.147: icmp_seq=1 ttl=48 time=60.7 ms
 64 bytes from 151.101.193.147: icmp_seq=2 ttl=48 time=60.3 ms
@@ -137,7 +137,7 @@ tags:
 
 `date`指定了文章写作日期；`categories`指定了文章放置的目录；`tags`指定文章标签。这些信息书写后，Jekyll会自动将你的文章按时间顺序收录和生成标签云。是不是很赞~关于Jekyll以及YAML的相关知识，可以查看[官方中文文档](http://jekyllcn.com/docs/home/)喔。
 
-博文的内容需要服从Markdown语法。正文的话就直接打就行了，但是像标题，斜体，下划线等等的实现符合使用Markdown语法。Markdown非常简单易学，也非常流行，各大编程相关的网站（像Biostar, Stack overflow）都基本支持，[简书](http://www.jianshu.com/)也支持。想要了解的朋友可以查看https://github.com/ShixiangWang/README，或者依赖搜索引擎查阅相关资料。
+博文的内容需要服从Markdown语法。正文的话就直接打就行了，但是像标题，斜体，下划线等等的实现符合使用Markdown语法。Markdown非常简单易学，也非常流行，各大编程相关的网站（像Biostar, Stack overflow）都基本支持，[简书](http://www.jianshu.com/)也支持。想要了解的朋友可以查看https://github.com/xianlinzhang/README，或者依赖搜索引擎查阅相关资料。
 
 博文存档时的文件名需要符合特定的格式要求：可以是`.md`文件和`.html`文件。如果是前者，Jekyll会自动将它解析成网页。命名则是`xxxx-xx-xx-*.md`，其中`xxxx-xx-xx`需要填入书写博文的时间，比如今天应该书写为`2017-08-11`，`*`指代可以填入任意内容，用以区分文件。`.md`表示是Markdown文件。
 
